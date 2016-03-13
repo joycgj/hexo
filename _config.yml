@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: joy 的画布
+title: Joy's Life Canvas
 subtitle: 永远爱你们
 description: 珍惜时间 珍惜机会 改变命运 改变人生
 author: joy/chengaojie
@@ -69,4 +69,6 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/kingaragorn/kingaragorn.github.io.git
+  branch: master
