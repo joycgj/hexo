@@ -219,12 +219,49 @@ done
 echo "OK! you input the correct answer."
 ```
 
+## for...do...done (固定循环)
 
+```
+for var in con1 con2 con3 ...
+do
+	code here
+done
+```
 
+```bash
+#!/bin/sh
 
+for animal in dog cat elephant
+do
+    echo "There are ${animal}s..."
+done
 
+There are dogs...
+There are cagts...
+There are elephants...
+```
 
+## for...do...done 的数值处理
 
+```
+for ((初始值; 限制值; 执行步长))
+do
+	code here
+done
+```
+
+```bash
+#!/bin/sh
+
+s=0
+for ((i = 0; i <= 100; i++))
+do
+    ((s+=i))
+done
+echo $s
+
+5050
+```
 
 
 
