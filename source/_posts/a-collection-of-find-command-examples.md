@@ -38,7 +38,7 @@ find . -iname foo -type f                       # same thing, but only files
 
 find files with different extensions
 ------------------------------------
-find . -type f \( -name "*.c" -o -name "*.sh" \)                       # *.c and *.sh files
+find . -type f \( -name "*.c" -o -name "*.sh" \)                       # *.c and *.sh files, \(\) 将 -name "*.c" -o -name "*.sh" 视作一个整体
 find . -type f \( -name "*cache" -o -name "*xml" -o -name "*html" \)   # three patterns
 
 find files that don't match a pattern (-not)
