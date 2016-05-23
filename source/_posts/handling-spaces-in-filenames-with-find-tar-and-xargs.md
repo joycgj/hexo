@@ -11,9 +11,7 @@ This morning I decided to take a few minutes to backup all the songs I've purcha
 
 The problem with trying to do this with standard Unix tools is that all these subdirectories and filenames have spaces in their names. Just looking at the Music folder, it contains many directory names like this:
 
-```
-Willie Nelson & Merle Haggard
-```
+    Willie Nelson & Merle Haggard
 
 If you know Unix, you know spaces in directory and filenames wreaks havoc with Unix tools. Fortunately we can get around this problem on Mac OS X systems, as you'll see here.
 

@@ -165,10 +165,10 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+#baidu_analytics: d975fcce3b5092f9fc31d8523def9754
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: kingaragorn
 
 # Disqus
 #disqus_shortname:
@@ -184,7 +184,7 @@ mathjax:
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -221,9 +221,9 @@ facebook_sdk:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true 
+  app_id: G5rx9ucLaon3pY5MDmye9gcq-gzGzoHsz 
+  app_key: iuk5NppXLIIVdhqopAjsOXG2 
 
 
 # Tencent analytics ID
