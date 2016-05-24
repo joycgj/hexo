@@ -26,9 +26,9 @@ categories: [linux,shell]
 #!/bin/sh
 
 if test -s file; then
-        echo "not empty"
+	echo "not empty"
 else
-        echo "empty"
+	echo "empty"
 fi
 ```
 
@@ -40,9 +40,9 @@ fi
 #!/bin/sh
 
 if [ -s file ]; then
-        echo "not empty"
+	echo "not empty"
 else
-        echo "empty"
+	echo "empty"
 fi
 ```
 
